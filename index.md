@@ -1,3 +1,3 @@
 # This is a title
 
-Hello world!
+Hello friends!
