@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {% seo %}
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    {% include navigation.html %}
+    <img class="avatar" src="/assets/images/{{ page.illustration }}.svg" alt="Avatar, par DrawKit">
+    {{ content }}
+    {% include footer.html %}
+  </body>
+</html>

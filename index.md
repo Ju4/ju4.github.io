@@ -1,7 +1,10 @@
 ---
-# This is a title
+layout: default
+title: Accueil
+illustration: avatar_normal
 ---
 
-# This is another title
+# Hello 👋
 
-Hello friends!
+Je ne sais pas trop comment tu as atterri sur ce site...
+mais maintenant que tu es là, tu peux jeter un œil à ma [liste de lecture](/readings.html).

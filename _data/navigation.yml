@@ -1,0 +1,4 @@
+- name: Accueil
+  link: /
+- name: Liste de lecture
+  link: /readings.html
