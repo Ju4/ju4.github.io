@@ -3,7 +3,7 @@ email: contact@ju4.fr
 description: >-
   Un petit site pour héberger quelques projets divers et variés.
 baseurl: "/"
-url: "https://ju4.github.io"
+url: "https://ju4.fr"
 
 collections:
   readings:
