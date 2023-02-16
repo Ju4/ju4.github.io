@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Accueil
-illustration: avatar_normal
 ---
 
 # Hello 👋
