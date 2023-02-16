@@ -2,7 +2,7 @@
   {% assign illustration = "avatar_normal" %}
   {% if page.illustration %}{% assign illustration = page.illustration %}{% endif %}
   <!-- Illustrations powered by DrawKit -->
-  <img class="avatar" src="/assets/images/{{ illustration }}.svg" aria-hidden="true">
+  <img class="avatar" src="/assets/images/{{ illustration }}.svg" aria-hidden="true" alt="">
   <ul>
     {% for item in site.data.navigation %}
       <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
