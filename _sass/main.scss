@@ -2,10 +2,31 @@ body {
   font-family: Verdana, Arial, Sans-serif;
   background-color: #004D40; 
   color: #F7D3B5;
-  padding: 24px;
+  padding: 32px;
 }
 a {
   color: #F7D3B5;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 8px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  column-gap: 16px;
+  row-gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 nav a {
   text-decoration: none;
@@ -14,9 +35,8 @@ nav .current {
   text-decoration: underline;
 }
 .avatar {
-  width: 128px;
-  height: 128px;
-  margin-top: 24px;
+  width: 64px;
+  height: 64px;
 }
 li p {
   margin: 0;

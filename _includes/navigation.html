@@ -1,6 +1,8 @@
 <nav>
-  {% for item in site.data.navigation %}
-    {% if item != site.data.navigation.first %}· {% endif %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
+  <img class="avatar" src="/assets/images/{{ page.illustration }}.svg" alt="Avatar, par DrawKit">
+  <ul>
+    {% for item in site.data.navigation %}
+      <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
 </nav>
