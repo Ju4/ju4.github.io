@@ -2,10 +2,14 @@ body {
   font-family: Verdana, Arial, Sans-serif;
   background-color: #004D40; 
   color: #F7D3B5;
-  padding: 32px;
+  padding: 0;
+  margin: 0;
 }
 a {
   color: #F7D3B5;
+}
+nav, footer, .page_content {
+  padding: 16px;
 }
 nav {
   display: flex;
@@ -13,6 +17,7 @@ nav {
   flex-wrap: wrap;
   column-gap: 16px;
   row-gap: 8px;
+  border-bottom: 1px solid;
 }
 nav ul {
   display: flex;
