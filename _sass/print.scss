@@ -3,6 +3,16 @@ body {
   background-color: #FFFFFF; 
   color: #000000;
 }
-nav {
-  display: hidden;
+footer, .page_content {
+  margin: 5% 10%;
+}
+nav {
+  display: none;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+a:link:after, a:visited:after {
+  content: " (" attr(href) ") ";
 }
