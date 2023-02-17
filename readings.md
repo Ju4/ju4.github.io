@@ -10,5 +10,5 @@ Quelques-unes de mes lectures récentes qui pourraient t'intéresser :
 
 {% assign sorted = site.readings | sort: 'read' | reverse  %}
 {% for reading in sorted %}
-* {{ reading.title }}, de *{{ reading.author }}*
+* {{ reading.title }}*, de {{ reading.author }}*
 {% endfor %}
