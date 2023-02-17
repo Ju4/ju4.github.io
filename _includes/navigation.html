@@ -2,7 +2,7 @@
   {% assign illustration = "avatar_normal" %}
   {% if page.illustration %}{% assign illustration = page.illustration %}{% endif %}
   <!-- Illustrations powered by DrawKit -->
-  <a href="/" class="avatar">
+  <a href="/" class="avatar" aria-hidden="true" alt="">
     <img src="/assets/images/{{ illustration }}.svg" aria-hidden="true" alt="">
   </a>
   <ul>
