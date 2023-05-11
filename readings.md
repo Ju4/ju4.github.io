@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Liste de lecture
+title: Lectures
 illustration: avatar_glasses
 ---
 

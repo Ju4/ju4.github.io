@@ -1,0 +1,32 @@
+---
+title: Actions
+---
+
+<h1>Mes tentatives d'actions</h1>
+
+<p>Ci-dessous, retrouvez quelques-unes des actions que j'essaie de mettre en place pour agir positivement sur trois sujets qui me tiennent à cœur (et qui sont intimement liés selon moi) : le social 🤝, l'écologie 🦕 et la gouvernance 🧠.</p>
+
+<p>L'objectif de ces pages est pour le moment et avant toute chose de mettre au clair mes idées et de documenter mes tests.<br>Les notations et observations concernent mon expérience et ne sont pas forcément représentatives.</p>
+
+<table>
+  <tr>
+    <th> </th>
+    <th> </th>
+    <th>Impact</th>
+    <th>Effort</th>
+  </tr>
+  {% for item in site.data.types %}
+    {% assign group = site.actions | where: "type", item.name | sort: "impact" | reverse %}
+    {% for action in group %}
+      <tr>
+        <td>{% if action == group[0] %}{{item.description}}{% endif %}</td>
+        <td><a href="{{ action.url }}">{{ action.title }}</a></td>
+        <td>{% for i in (1..action.impact) %}⭐️{% endfor %}</td>
+        <td>{% for i in (1..action.complexity) %}💧{% endfor %}</td>
+      </tr>
+    {% endfor %}
+  {% endfor %}
+</table>
+
+
+<p>N'hésitez pas à me contacter pour me corriger, me challenger, me suggérer de nouvelles pistes d'actions ou en savoir plus !</p>

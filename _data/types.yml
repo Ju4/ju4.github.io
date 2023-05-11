@@ -1,0 +1,6 @@
+- name: individual
+  description: Individuel
+- name: work
+  description: Travail
+- name: collective
+  description: Collectif

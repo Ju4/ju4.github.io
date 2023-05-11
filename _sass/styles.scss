@@ -3,7 +3,7 @@ body {
   background-color: #004D40; 
   color: #F7D3B5;
 }
-h1 {
+h1, h2 {
   font-weight: normal;
 }
 a {
@@ -43,4 +43,15 @@ nav .current {
 .avatar, .avatar img {
   width: 64px;
   height: 64px;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  font-style: italic;
+  font-weight: normal;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid;
 }

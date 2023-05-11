@@ -7,6 +7,19 @@ url: "https://ju4.fr"
 
 collections:
   readings:
+  actions:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "actions"
+    values:
+      layout: "action"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 plugins:
   - jekyll-sitemap
