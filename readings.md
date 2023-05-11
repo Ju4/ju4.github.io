@@ -3,7 +3,7 @@ title: Lectures
 illustration: avatar_glasses
 ---
 
-# Liste de lecture
+# Ma liste de lecture
 
 Quelques-unes de mes lectures récentes qui pourraient t'intéresser :
 
